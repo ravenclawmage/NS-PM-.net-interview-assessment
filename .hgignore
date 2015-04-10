@@ -1,0 +1,27 @@
+syntax: glob
+*.suo
+*.docstates
+[Bb]in
+[Oo]bj
+TestResults
+_ReSharper*
+*.ReSharper*
+DataSources
+*.user
+*.rej
+*.orig
+*.Publish.xml
+*.dotCover
+___*.tmp
+WE-browsers.xml
+*.dgml
+packages
+local.properties
+build.properties
+launches/server
+codecoverage
+dist
+jspwork-tmp-dir
+test-output
+WEB-INF/classes
+build
