@@ -144,10 +144,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Interview.mdf" />
-    <Content Include="App_Data\Interview_log.ldf">
-      <DependentUpon>Interview.mdf</DependentUpon>
-    </Content>
+    <Content Include="App_Data\setup database.sql" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
