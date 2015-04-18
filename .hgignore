@@ -25,3 +25,4 @@ jspwork-tmp-dir
 test-output
 WEB-INF/classes
 build
+App_Data
