@@ -1,4 +1,7 @@
-﻿<div class="table-responsive">
+﻿@using Interview.Web.DataAccess
+@model List<Contact>
+
+<div class="table-responsive">
     <table class="table">
         <thead>
             <tr>
@@ -13,16 +16,19 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>View</td>
-                <td>Edit</td>
-                <td>Delete</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            @foreach (var contact in Model)
+            {
+                <tr>
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                    <td>@contact.FirstName</td>
+                    <td>@contact.LastName</td>
+                    <td>@contact.Email</td>
+                    <td>@contact.Phone</td>
+                    <td>@contact.GenderId.ToString()</td>
+                </tr>
+            }
         </tbody>
     </table>
 </div>
